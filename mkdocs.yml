@@ -1,0 +1,9 @@
+site_name: Radview Docs
+nav: 
+  - Home: index.md
+  - Dashboard Guide: 
+    - Introduction: dashboard/introduction.md
+    - Installing WebLOAD Dashboard: dashboard/installing-webload.md
+    - Getting Started: dashboard/getting-started.md
+    - Managing Tests: dashboard/managing-tests.md
+theme: readthedocs
