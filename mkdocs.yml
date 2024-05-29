@@ -6,4 +6,7 @@ nav:
     - Installing WebLOAD Dashboard: dashboard/installing-webload.md
     - Getting Started: dashboard/getting-started.md
     - Managing Tests: dashboard/managing-tests.md
+    - Managing Sessions: dashboard/managing-sessions.md
+    - Managing Resourses: dashboard/managing-resources.md
+    - Using Dashboards: dashboard/using-dashboards.md
 theme: readthedocs
