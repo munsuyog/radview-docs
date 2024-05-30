@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Using Dashboards - Radview Docs</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Using Dashboards";
+        var mkdocs_page_input_path = "dashboard\\using-dashboards.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Radview Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Dashboard Guide</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../installing-webload/">Installing WebLOAD Dashboard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-tests/">Managing Tests</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-sessions/">Managing Sessions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-resources/">Managing Resourses</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Using Dashboards</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#dashboards-tab-components">Dashboards Tab Components</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#dashboard-header">Dashboard Header</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rows">Rows</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#panels">Panels</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#graph-panel">Graph Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#table-panel">Table Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#text-panel">Text Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#singlestat-panel">Singlestat Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#alert-list-panel">Alert List Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#dashboard-list-panel">Dashboard List Panel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#plugin-list-panel">Plugin List Panel</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#specifying-the-sessions-to-view-in-the-dashboard">Specifying the Sessions to view in the Dashboard</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#specifying-the-zoom">Specifying the Zoom</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#selecting-the-time-format">Selecting the Time Format</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#setting-the-time-picker">Setting the Time Picker</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Radview Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Dashboard Guide</li>
+      <li class="breadcrumb-item active">Using Dashboards</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="using-dashboards">Using Dashboards</h1>
+<p>The <strong>Dashboards</strong> tab enables viewing, analyzing, and comparing load sessions, with full control and customization of the display.</p>
+<ul>
+<li>For explanations of the various measurements in the graphs, refer to the <em>WebLOAD Console User's Guide</em>.</li>
+<li>For explanations of the log messages in the tables, refer to the <em>WebLOAD Console User's Guide</em>.</li>
+</ul>
+<h2 id="dashboards-tab-components">Dashboards Tab Components</h2>
+<p>The high-level UI components of the <strong>Dashboards</strong> tab include:</p>
+<ul>
+<li><strong>Header</strong>: Provides global settings, filters, and controls.</li>
+<li><strong>Rows</strong>: Each row contains panels for data display.</li>
+<li><strong>Panels</strong>: Display data in graph, text, table, singlestat, alert list, dashboard list, or plugin list format.</li>
+</ul>
+<p><img alt="Dashboard Components" src="../../images/using-dashboards/dashboard-header-components.png" /></p>
+<h3 id="dashboard-header">Dashboard Header</h3>
+<p><img alt="Dashboard Tab Header Components" src="../../images/using-dashboards/dashboard-tab-header.png" /></p>
+<p>The main components of the dashboard tab header include:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Item</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>For more information, see</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Dashboard name and selection</td>
+<td><em>Loading a Dashboard</em> (on page 59)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Select session</td>
+<td><em>Specifying the Sessions to view in the Dashboard</em> (on page 41)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Star or unstar a dashboard</td>
+<td><em>Loading a Dashboard</em> (on page 59)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Share dashboard</td>
+<td><em>Sharing a Dashboard</em> (on page 66)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Save</td>
+<td><em>Saving your Customized Dashboard</em> (on page 63)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Settings</td>
+<td><em>Customizing General Dashboard Settings</em> (on page 55)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Time format</td>
+<td><em>Selecting the Time Format</em> (on page 43)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Zoom to Data</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Zoom out</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Time picker</td>
+<td><em>Setting the Time Picker</em> (on page 45)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Refresh data</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="rows">Rows</h3>
+<p>A row is a horizontal container for panels. A row can be hidden (collapsed) and its height controls its panels' height.</p>
+<ul>
+<li>To add a new row, click <strong>+ ADD ROW</strong> at the bottom of a dashboard page.</li>
+<li>To edit a row, click the three grey dots and select the desired option. For more information, refer to <em>Customizing Rows</em> (on page 46).</li>
+</ul>
+<p><img alt="Row Editing Options" src="../../images/using-dashboards/row-editing-options.png" /></p>
+<h3 id="panels">Panels</h3>
+<p>A panel is a data display unit. There are various types of panels -- such as graph, text, table, singlestat, Alert list, Dashboard list, and Plugin list.</p>
+<ul>
+<li>To add a new panel, click the three grey dots of the desired row and select <strong>Add Panel</strong>.</li>
+<li>To edit a panel, click the panel title and click <strong>edit</strong> in the box that appears. For more information, refer to <em>Customizing Panels</em> (on page 47).</li>
+</ul>
+<h4 id="graph-panel">Graph Panel</h4>
+<p>A graph panel presents session measurement data in graphic format. In each graph panel, you can display multiple measurements from multiple sessions. You can also set various display options, such as colors, graph style (lines, bars, points), Y-axis formats (bytes, milliseconds, etc.), and more.</p>
+<p><img alt="Graph Panel" src="../../images/using-dashboards/graph-panel.png" /></p>
+<h4 id="table-panel">Table Panel</h4>
+<p>A table panel presents data in table format; by default, the log messages from specified sessions. You can sort the display by various parameters and filter the display by severity.</p>
+<p><img alt="Table Panel" src="../../images/using-dashboards/table-panel.png" /></p>
+<h4 id="text-panel">Text Panel</h4>
+<p>A text panel presents text. You can edit the text.</p>
+<p><img alt="Text Panel" src="../../images/using-dashboards/text-panel.png" /></p>
+<h4 id="singlestat-panel">Singlestat Panel</h4>
+<p>A singlestat panel is similar to a graph panel but shows only a single statistic, usually in numeric form. It may contain a 'sparkline' and may appear as a gauge. Note that because a singlestat panel displays only one measurement, it is not suitable when comparing two or more sessions.</p>
+<p><img alt="Singlestat Panel" src="../../images/using-dashboards/singlestat-panel.png" /></p>
+<h4 id="alert-list-panel">Alert List Panel</h4>
+<p>Reserved for future use.</p>
+<h4 id="dashboard-list-panel">Dashboard List Panel</h4>
+<p>Reserved for future use.</p>
+<h4 id="plugin-list-panel">Plugin List Panel</h4>
+<p>Reserved for future use.</p>
+<h2 id="specifying-the-sessions-to-view-in-the-dashboard">Specifying the Sessions to view in the Dashboard</h2>
+<p>WebLOAD Dashboard dashboards are useful both for analyzing the results of a specific session and for comparing the results of different sessions.</p>
+<p><strong>To select a session for viewing in the dashboard tab:</strong></p>
+<p>Do any of the following:</p>
+<ul>
+<li>In the Load Sessions table, click the session name. The session appears in the currently selected dashboard.</li>
+<li>In Load Tests table, click the Show Last Session button.</li>
+<li>To select multiple sessions for viewing in the dashboard tab, click <strong>Show in Dashboard</strong> for each session you wish to view in the Dashboard.</li>
+</ul>
+<p><img alt="Selecting Sessions - from the Header" src="../../images/using-dashboards/selecting-sessions-from-the-header.png" /></p>
+<h2 id="specifying-the-zoom">Specifying the Zoom</h2>
+<p>Using a graph panel's zoom option, you can set the time period for which all panels display information. For example, if you select to zoom into the time period from 00:30 to 01:00, all panels will refresh to show information for that time period only, and the metric panels, for example, will display metrics for that time period only.</p>
+<p><strong>To zoom in:</strong></p>
+<p>Use the mouse to select a specific time range in the panel.</p>
+<p><img alt="Selecting a Time Range" src="../../images/using-dashboards/selecting-a-time-range.png" /></p>
+<p>The dashboard refreshes to show the graph for the selected time range only.</p>
+<p><img alt="Display of a Selected Time Range" src="../../images/using-dashboards/display-of-selected-time-range.png" /></p>
+<p><strong>To zoom out:</strong></p>
+<p>Use the <strong>Zoom to Data</strong> or <strong>Zoom Out</strong> options in the dashboard header.</p>
+<h2 id="selecting-the-time-format">Selecting the Time Format</h2>
+<p>You can view dashboard data in either Relative time or Absolute time (see item ⑦ in Figure 33). This affects the graphs' display as follows:</p>
+<p><strong>If you are viewing data for a single session:</strong></p>
+<ul>
+<li><img alt="Relative time" src="../../images/using-dashboards/relative-time.png" /> <strong>Relative time</strong> -- The start time is shifted over to zero.</li>
+<li><img alt="Absolute time" src="../../images/using-dashboards/absolute-time.png" /> <strong>Absolute time</strong> -- Shows the real time. This format is useful for viewing currently running sessions.</li>
+</ul>
+<p><strong>If you are comparing sessions:</strong></p>
+<ul>
+<li><strong>Relative time</strong> -- The graph shows the two sessions as if they occurred concurrently (within the same timeframe).
+  <img alt="Comparing Sessions in Relative Time Display" src="../../images/using-dashboards/graph-panel.png" /></li>
+<li><strong>Absolute time</strong> -- The graphs show the real time.
+  <img alt="Comparing Sessions in Absolute Time Display" src="../../images/using-dashboards/comparing-sessions-absolute-time-display.png" /></li>
+</ul>
+<h3 id="setting-the-time-picker">Setting the Time Picker</h3>
+<p>If you selected the Time Picker (see item ⑩ in Figure 33), you can set various time settings.
+<img alt="Time Filter Options" src="../../images/using-dashboards/time-filter-options.png" /></p>
+<p>You can, for example, set the auto-refresh frequency.
+<img alt="Auto-Refresh Options" src="../../images/using-dashboards/auto-refresh-options.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../managing-resources/" class="btn btn-neutral float-left" title="Managing Resourses"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../managing-resources/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Managing Resourses - Radview Docs</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Managing Resourses";
+        var mkdocs_page_input_path = "dashboard\\managing-resources.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Radview Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Dashboard Guide</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../installing-webload/">Installing WebLOAD Dashboard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-tests/">Managing Tests</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-sessions/">Managing Sessions</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Managing Resourses</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#viewing-resources">Viewing Resources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uploading-resources">Uploading Resources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-a-resources-subfolder">Creating a Resources Subfolder</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-a-load-test-based-on-a-resource">Creating a Load Test Based on a Resource</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#deleting-a-resource-or-resources-folder">Deleting a Resource or Resources Folder</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../using-dashboards/">Using Dashboards</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Radview Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Dashboard Guide</li>
+      <li class="breadcrumb-item active">Managing Resourses</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="managing-resources">Managing Resources</h1>
+<p>The Resources tab enables loading any file type to the WebLOAD Dashboard's Resources folder. This functionality allows you to upload files of tests created in WebLOAD Console, such as templates, scripts, sessions, etc., and any file used to test your system. The Resources tab also offers the option of creating sub-folders. If you want the uploaded templates or scripts to continue working once they are uploaded to WebLOAD Dashboard, you will need to create the same hierarchy as the original hierarchy of the files you are uploading.</p>
+<h2 id="viewing-resources">Viewing Resources</h2>
+<p><strong>To view the resources uploaded to WebLOAD Dashboard:</strong></p>
+<ol>
+<li>In the menu bar, select <strong>Resources</strong> &gt; <strong>Search</strong>.</li>
+</ol>
+<p><img alt="Resources Page" src="../../images/managing-resources/resources-page.png" /></p>
+<p>The resources can be organized hierarchically in subfolders, or some or all of them can be located in the root of the Resources folder. To view the contents of a subfolder, click the subfolder name.</p>
+<p>The Resources table provides the following information and available actions for each resource or resource subfolder:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Item</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>The name of the resource or folder containing resources.</td>
+</tr>
+<tr>
+<td><img alt="Delete" src="../../images/managing-tests/managing-tests-delete.png" /></td>
+<td>Instructs WebLOAD to delete the resource or folder. Refer to <em>Deleting a Resource or Resources folder</em> (on page 34).</td>
+</tr>
+<tr>
+<td><img alt="Download" src="../../images/managing-resources/download-icon.png" /></td>
+<td>Instructs WebLOAD to download the resource to the local computer.</td>
+</tr>
+<tr>
+<td><img alt="Create Load Test" src="../../images/managing-resources/create-load-test.png" /></td>
+<td>Enables creating a load test based on the resource. Refer to <em>Creating a Load Test Based on a Resource</em> (on page 34).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="uploading-resources">Uploading Resources</h2>
+<p><strong>To upload a resource into WebLOAD Dashboard:</strong></p>
+<ol>
+<li>
+<p>In the menu bar, select <strong>Resources</strong> &gt; <strong>Search</strong>.</p>
+</li>
+<li>
+<p>If you wish to add a resource into the root folder of the WebLOAD Console Resources folder, click <strong>Upload Resources</strong> on the Resources page.</p>
+</li>
+<li>
+<p>If you wish to add a resource into a subfolder of the WebLOAD Console Resources folder:</p>
+<ul>
+<li>a. Navigate to the subfolder in the folders tree displayed on the Resources page. If the subfolder does not yet exist, create it as described in <em>Creating a Resources subfolder</em> (on page 33).</li>
+<li>b. Click <strong>Upload Resource</strong>.</li>
+</ul>
+</li>
+</ol>
+<p>The Upload Resources page appears.</p>
+<p><img alt="Upload Resources Page" src="../../images/managing-resources/upload-resources-page.png" /></p>
+<ol>
+<li>
+<p>On the Upload Resources page, click <strong>Select resource files</strong>.</p>
+</li>
+<li>
+<p>In the file explorer window that appears, navigate to the files, select them, and then click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>The files are uploaded to the folder you were in when you clicked <strong>Upload Resource</strong>.</p>
+</li>
+</ol>
+<h2 id="creating-a-resources-subfolder">Creating a Resources Subfolder</h2>
+<p><strong>To create a subfolder in the Resources folder:</strong></p>
+<ol>
+<li>
+<p>In the menu bar, select <strong>Resources</strong> &gt; <strong>Search</strong>.</p>
+<p>The Resources page appears</p>
+</li>
+<li>
+<p>If you wish to add a subfolder under the root folder of the WebLOAD Console Resources folder, click <strong>Create Folder</strong> on the Resources page.</p>
+</li>
+<li>
+<p>If you wish to add a subfolder under a specific subfolder of the WebLOAD Console Resources folder, navigate to the specific subfolder in the folders tree displayed on the Resources page. Then click <strong>Create Folder</strong>.</p>
+<p>The New Resource Folder page appears.</p>
+<p><img alt="New Resource Folder Page" src="../../images/managing-resources/new-resource-folder.png" /></p>
+</li>
+<li>
+<p>Specify the subfolder's name, and click <strong>Create</strong>.</p>
+</li>
+</ol>
+<h2 id="creating-a-load-test-based-on-a-resource">Creating a Load Test Based on a Resource</h2>
+<p>You can create a load test based on either of the following types of resources:</p>
+<ul>
+<li>
+<p>.wlp - a script as well as resources related to the script</p>
+</li>
+<li>
+<p>.tpl - a template file</p>
+</li>
+</ul>
+<p><strong>To create a load test based on a resource:</strong></p>
+<ol>
+<li>
+<p>In the menu bar, select <strong>Resources</strong> &gt; <strong>Search</strong>.</p>
+</li>
+<li>
+<p>In the Resources table, click <img alt="Create Load Test" src="../../images/managing-resources/create-load-test.png" /> adjacent to a resource of type .wlp or .tpl.</p>
+</li>
+<li>
+<p>If the resource was a .wlp file, the Create Load Test for a Script-type test appears, with the .wlp already appearing in the <strong>Script</strong> field. See <em>Creating a Script Load Test</em>. Set or edit any of the fields, and click <strong>Create Test</strong>.</p>
+</li>
+<li>
+<p>If the resource was a .tpl file, the Create Load Test for a template-type test appears, with the .tpl already appearing in the <strong>Template</strong> field. See <em>Creating a Template Load Test</em>. Set or edit any of the fields, and click <strong>Create Test</strong>.</p>
+</li>
+</ol>
+<h2 id="deleting-a-resource-or-resources-folder">Deleting a Resource or Resources Folder</h2>
+<ol>
+<li>
+<p>In the menu bar, click <strong>Resources</strong> &gt; <strong>Search</strong>.</p>
+</li>
+<li>
+<p>Optionally navigate to a specific subfolder in the folders tree displayed on the Resources page.</p>
+</li>
+<li>
+<p>Click <img alt="Delete" src="../../images/icons/delete.png" /> adjacent to a resource or subfolder.</p>
+</li>
+<li>
+<p>You are requested to confirm the delete operation.</p>
+<p><img alt="Delete Resource Confirmation" src="../../images/managing-resources/delete-resource-confirmation.png" /></p>
+</li>
+<li>
+<p>If the resource is a template, you can select between:</p>
+<ul>
+<li>Deleting the template as well as its associated test and sessions</li>
+<li>Deleting only the template, but keeping the associated test and sessions</li>
+</ul>
+<p><img alt="Delete Template Resource" src="../../images/managing-resources/delete-template-resource.png" /></p>
+</li>
+<li>
+<p>If you specified to delete a resources folder, keep in mind that although the templates located in this folder will be deleted, the tests and sessions from those folders will be kept for review and will be displayed in the Load Tests page and Load Sessions page (but without the ability to run them).</p>
+<p><img alt="Delete Resource Subfolder" src="../../images/managing-resources/delete-resource-subfolder.png" /></p>
+</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../managing-sessions/" class="btn btn-neutral float-left" title="Managing Sessions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../using-dashboards/" class="btn btn-neutral float-right" title="Using Dashboards">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../managing-sessions/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../using-dashboards/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

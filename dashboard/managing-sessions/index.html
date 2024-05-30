@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Managing Sessions - Radview Docs</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Managing Sessions";
+        var mkdocs_page_input_path = "dashboard\\managing-sessions.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Radview Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Dashboard Guide</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../installing-webload/">Installing WebLOAD Dashboard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-tests/">Managing Tests</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Managing Sessions</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#viewing-load-sessions">Viewing Load Sessions</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#filtering-the-load-sessions-display">Filtering the Load Sessions display</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#uploading-a-session">Uploading a session</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../managing-resources/">Managing Resourses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../using-dashboards/">Using Dashboards</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Radview Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Dashboard Guide</li>
+      <li class="breadcrumb-item active">Managing Sessions</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="managing-sessions">Managing Sessions</h1>
+<h2 id="viewing-load-sessions">Viewing Load Sessions</h2>
+<p>In WebLOAD Dashboard, you can manage the following types of sessions:</p>
+<ul>
+<li>The sessions of load tests created and run in the WebLOAD Dashboard</li>
+<li>Sessions that were created in the WebLOAD Console and uploaded to the WebLOAD Dashboard. For instructions on how to upload sessions to the WebLOAD Dashboard, see <em>Uploading a session</em> (on page 30).</li>
+</ul>
+<p><strong>To view the load sessions</strong>:</p>
+<ol>
+<li>In the menu bar, select <strong>Sessions</strong> &gt; <strong>Search</strong>.</li>
+</ol>
+<p>The Load Sessions table appears.</p>
+<p><img alt="Load Sessions page" src="../../images/managing-sessions/load-sessions-page.png" /></p>
+<p>The Load Sessions table provides the following information and available actions for each Load Session:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Item</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>The name of the load session. Clicking the name opens the Dashboard page for this session, enabling you to view the results of this session.</td>
+</tr>
+<tr>
+<td><strong>Test</strong></td>
+<td>The name of the corresponding load test.</td>
+</tr>
+<tr>
+<td><strong>From</strong></td>
+<td>The date and time when the load session started running.</td>
+</tr>
+<tr>
+<td><strong>To</strong></td>
+<td>The date and time when the load session finished running.</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Whether the test passed or failed test execution.</td>
+</tr>
+<tr>
+<td><strong>Failed Reason</strong></td>
+<td>If the test failed, displays the reason for failure.</td>
+</tr>
+<tr>
+<td><img alt="Delete" src="../../images/managing-tests/managing-tests-delete.png" /></td>
+<td>Instructs WebLOAD to delete this load session.</td>
+</tr>
+<tr>
+<td><img alt="Download" src="../../images/icons/download.png" /></td>
+<td>Instructs WebLOAD to download the session results to the local computer. The results are downloaded as a zip file that contains the following files: .ls, .mdb, .sdb, .isd, .dat. You can then open the session in WebLOAD Console or WebLOAD Analytics.</td>
+</tr>
+<tr>
+<td><img alt="Run" src="../../images/managing-tests/managing-tests-run.png" /></td>
+<td>Enables manually running a test created in WebLOAD Dashboard, now or at a specified time. Refer to <em>Scheduling a one-time test run</em> (on page 25).</td>
+</tr>
+<tr>
+<td><img alt="Stop" src="../../images/managing-tests/managing-tests-stop.png" /></td>
+<td>Instructs WebLOAD to stop running the test.</td>
+</tr>
+<tr>
+<td><strong>Show in Dashboard</strong></td>
+<td>Enables specifying which sessions to display in the dashboard. This is very useful for comparing the statistics from multiple sessions.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="filtering-the-load-sessions-display">Filtering the Load Sessions display</h3>
+<p>You can filter the Load Sessions table display by:</p>
+<ul>
+<li><strong>Session name</strong>, using the <strong>Find by Session Name</strong> box.</li>
+<li><strong>Test name</strong>, using the <strong>Find by Test Name</strong> box.</li>
+<li><strong>Test status</strong>, using the <strong>All Statuses</strong> drop-down box.</li>
+<li><strong>Test date</strong>, using the <strong>All Dates</strong> drop-down box.</li>
+</ul>
+<p><img alt="Options for filtering the Load Sessions list" src="../../images/managing-sessions/filtering-load-sessions-list.png" /></p>
+<h2 id="uploading-a-session">Uploading a session</h2>
+<p>You can upload to WebLOAD Dashboard, sessions that were created in the WebLOAD Console. Each session created in the WebLOAD Console consists of the following four types of files; to upload the session, you need to upload all four files:</p>
+<ul>
+<li>.ls - Load Session files</li>
+<li>.dat - Load Session data files</li>
+<li>.sdb - Statistics database files</li>
+<li>.isd - Index statistics database files</li>
+</ul>
+<p><strong>To upload a session:</strong></p>
+<ol>
+<li>
+<p>Do one of the following:</p>
+</li>
+<li>
+<p>In the menu bar, select <strong>Session</strong> &gt; <strong>Upload</strong></p>
+</li>
+<li>In the Load Sessions table, click <strong>Upload Session</strong></li>
+</ol>
+<p>The Session Upload page is displayed.</p>
+<p><img alt="Session Upload page" src="../../images/managing-sessions/session-upload-page.png" /></p>
+<ol>
+<li>
+<p>Click <strong>Select session files</strong>.</p>
+</li>
+<li>
+<p>In the file explorer dialog that appears, navigate to the load session's files, select them, and click <strong>Open</strong>.</p>
+</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../managing-tests/" class="btn btn-neutral float-left" title="Managing Tests"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../managing-resources/" class="btn btn-neutral float-right" title="Managing Resourses">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../managing-tests/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../managing-resources/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
