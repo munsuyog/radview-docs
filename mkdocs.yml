@@ -9,4 +9,10 @@ nav:
     - Managing Sessions: dashboard/managing-sessions.md
     - Managing Resourses: dashboard/managing-resources.md
     - Using Dashboards: dashboard/using-dashboards.md
+    - Customizing a Dashboard: dashboard/customizing-dashboard.md
+    - Managing Dashboards: dashboard/managing-dashboards.md
+    - Sharing a Dashboard or Panel: dashboard/sharing-a-dashboard-or-panel.md
+    - Creating and Playing a Playlist: dashboard/creating-and-playing-a-playlist.md
+    - Managing Load Generators: dashboard/managing-load-generators.md
+    - Managing Organizations, Users and Admins: dashboard/managing-organizations-users-and-admins.md
 theme: readthedocs
