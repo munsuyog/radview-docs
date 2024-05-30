@@ -14,13 +14,13 @@ To add a new row, click **+ ADD ROW** at the bottom of a dashboard page.
 ### Editing a Row
 To edit a row, click the three grey dots to the left of the row and select the desired option.
 
-![Row Editing Options](../images/customizing-dashboard/row-editing-options.png)
+![Row Editing Options](../images/dashboard/customizing-dashboard/row-editing-options.png)
 
 The available options include:
 
 | Item           | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
-| **Collapse**   | Hides the row. To show the row again, press the ![Collapse Button](../images/customizing-dashboard/collapse-button.png). |
+| **Collapse**   | Hides the row. To show the row again, press the ![Collapse Button](../images/dashboard/customizing-dashboard/collapse-button.png). |
 | **Add Panel**  | Adds a panel to the row, of the type you specify: Graph, Singlestat, Table, Text, Alert List, Dashboard List, or Plugin List. |
 | **Row Options**| Enables editing a row's settings. For information, refer to *Editing a Row's options* (on page 47).       |
 | **Move Up**    | Moves the row up.                                                                                         |
@@ -35,7 +35,7 @@ To edit a row's options, click the three grey dots to the left of the row and se
 
 A pane appears, for setting the row's options. Edit the row as desired.
 
-![Row options](../images/customizing-dashboard/row-options.png)
+![Row options](../images/dashboard/customizing-dashboard/row-options.png)
 
 ---
 
@@ -49,7 +49,7 @@ To delete a row, click the three grey dots to the left of the row and select **R
 
 To edit a panel, click the panel title and click **edit** in the box that appears.
 
-![Panel Options](../images/customizing-dashboard/panel-options.png)
+![Panel Options](../images/dashboard/customizing-dashboard/panel-options.png)
 
 An editing pane appears, with various editing options that depend on the panel type (text, graph, table, or singlestat), as described below.
 
@@ -59,7 +59,7 @@ An editing pane appears, with various editing options that depend on the panel t
 
 Select the **General** tab to edit the panel's general options.
 
-![Edit Panel -- General Options](../images/customizing-dashboard/edit-panel-general-options.png)
+![Edit Panel -- General Options](../images/dashboard/customizing-dashboard/edit-panel-general-options.png)
 
 ---
 
@@ -76,11 +76,11 @@ You can specify which metrics to display for which sessions.
 1. Click the panel's title and select **edit**.
 2. Select the **Metrics** tab. The metrics currently displayed in the graph are displayed in the table.
 
-    ![Graph Settings -- Metrics](../images/customizing-dashboard/graph-settings-metrics.png)
+    ![Graph Settings -- Metrics](../images/dashboard/customizing-dashboard/graph-settings-metrics.png)
 
 3. To add a measurement, click **Add Measurement**. A new line appears in the table.
 
-    ![Graph Settings -- Adding a New Measurement Line](../images/customizing-dashboard/graph-settings-adding-new-measurement-line.png)
+    ![Graph Settings -- Adding a New Measurement Line](../images/dashboard/customizing-dashboard/graph-settings-adding-new-measurement-line.png)
 
 4. Edit the new line:
    - Select metrics for the new line you added (columns ①, ②, ③, ④, ⑤ in Figure 51).
@@ -111,7 +111,7 @@ The following table describes some of the operations available in the **Metrics*
 
 A pane appears, displaying the current axes definitions. You can change any of the definitions, and the graph display changes accordingly.
 
-![Graph Settings -- Axes](../images/customizing-dashboard/graph-settings-axes.png)
+![Graph Settings -- Axes](../images/dashboard/customizing-dashboard/graph-settings-axes.png)
 
 ---
 
@@ -124,7 +124,7 @@ A pane appears, displaying the current axes definitions. You can change any of t
 
 A pane appears, displaying the legend definitions. You can change any of the definitions, and the graph display changes accordingly.
 
-![Graph Settings -- Legend](../images/customizing-dashboard/graph-settings-legend.png)
+![Graph Settings -- Legend](../images/dashboard/customizing-dashboard/graph-settings-legend.png)
 
 ---
 
@@ -137,7 +137,7 @@ A pane appears, displaying the legend definitions. You can change any of the def
 
 A pane appears, displaying the display definitions. You can change any of the definitions, and the graph display changes accordingly.
 
-![Graph Settings -- Display Styles](../images/customizing-dashboard/graph-settings-display-styles.png)
+![Graph Settings -- Display Styles](../images/dashboard/customizing-dashboard/graph-settings-display-styles.png)
 
 ---
 
@@ -150,7 +150,7 @@ A pane appears, displaying the display definitions. You can change any of the de
 
 A pane appears, displaying the time range definitions. You can change any of the definitions, and the graph display changes accordingly.
 
-![Graph Settings -- Time Range](../images/customizing-dashboard/graph-settings-time-range.png)
+![Graph Settings -- Time Range](../images/dashboard/customizing-dashboard/graph-settings-time-range.png)
 
 ---
 
@@ -167,7 +167,7 @@ Working with a singlestat panel is similar to working with a graph panel. A meas
 
 A pane appears, displaying the display definitions. You can change any of the definitions, and the graph display changes accordingly.
 
-![Singlestat Settings -- Display Options](../images/customizing-dashboard/singlestat-settings-display-options.png)
+![Singlestat Settings -- Display Options](../images/dashboard/customizing-dashboard/singlestat-settings-display-options.png)
 
 ---
 
@@ -175,17 +175,17 @@ A pane appears, displaying the display definitions. You can change any of the de
 
 You can customize a table panel's display directly in the dashboard.
 
-![Table Panel Header](../images/customizing-dashboard/table-panel-header.png)
+![Table Panel Header](../images/dashboard/customizing-dashboard/table-panel-header.png)
 
 The header of the table panel provides the following options:
 
 - **Sorting the table display** -- Clicking any column head sorts the table by that column in ascending or descending order.
-- **Filtering by severity** -- By clicking the down arrow ![Severity Filter](../images/customizing-dashboard/severity-filter.png) in the **Severity** column head, you can select whether to view messages of all severity types, or of a certain type.
+- **Filtering by severity** -- By clicking the down arrow ![Severity Filter](../images/dashboard/customizing-dashboard/severity-filter.png) in the **Severity** column head, you can select whether to view messages of all severity types, or of a certain type.
 
 ### Editing a Text Panel
 To edit the text in a Text panel, click the panel's title and select **edit** (Figure 48), and then select the **Panel** tab.
 
-![Text Settings -- Panel Tab](../images/customizing-dashboard/text-settings-panel-tab.png)
+![Text Settings -- Panel Tab](../images/dashboard/customizing-dashboard/text-settings-panel-tab.png)
 
 You can:
 - Select the mode:
@@ -213,7 +213,7 @@ A new panel -- a duplicate of the original -- is created in the dashboard. You c
 **To delete a panel:**
 1. Click the panel's title and select the **Delete** icon in the top right corner.
 
-![Delete Panel button](../images/customizing-dashboard/delete-panel-button.png)
+![Delete Panel button](../images/dashboard/customizing-dashboard/delete-panel-button.png)
 
 2. Confirm the deletion.
 
@@ -222,11 +222,11 @@ You can customize various general dashboard settings.
 
 **To configure general dashboard settings:**
 1. Click the Manage Dashboard Settings icon
-![Settings Icon](../images/customizing-dashboard/settings-icon.png) in the middle of the dashboard header, and select **Settings**.
+![Settings Icon](../images/dashboard/customizing-dashboard/settings-icon.png) in the middle of the dashboard header, and select **Settings**.
 
 ---
 
-![Selecting to Configure Dashboard Settings](../images/customizing-dashboard/selecting-to-configure-dashboard-settings.png)
+![Selecting to Configure Dashboard Settings](../images/dashboard/customizing-dashboard/selecting-to-configure-dashboard-settings.png)
 
 ---
 
@@ -234,29 +234,29 @@ A Dashboard **Settings** pane appears, with multiple tabs.
 
 2. Set the **General** settings as desired.
 
-![Dashboard Settings -- General](../images/customizing-dashboard/dashboard-settings-general.png)
+![Dashboard Settings -- General](../images/dashboard/customizing-dashboard/dashboard-settings-general.png)
 
 For example, if you select **Shared Crosshair**, then hovering over one of the graphs causes a corresponding crosshairs to appear in all the graphs.
 
-![Shared Crosshair](../images/customizing-dashboard/shared-crosshair.png)
+![Shared Crosshair](../images/dashboard/customizing-dashboard/shared-crosshair.png)
 
 3. Set the **Rows** settings as desired. For example, use the up and down arrows to switch between the locations of rows in the dashboard.
 
-![Dashboard Settings -- Rows](../images/customizing-dashboard/dashboard-settings-rows.png)
+![Dashboard Settings -- Rows](../images/dashboard/customizing-dashboard/dashboard-settings-rows.png)
 
 4. Set the **Links** settings as desired. This enables adding links that appear under the Dashboard header. You can add a link to any site, or to a dashboard.
 
-![Dashboard Settings -- Links](../images/customizing-dashboard/dashboard-settings-links.png)
+![Dashboard Settings -- Links](../images/dashboard/customizing-dashboard/dashboard-settings-links.png)
 
 *Figure 64: Dashboard Settings -- Links*
 
 5. Set the **Time picker** settings as desired. For example, you can set the **Auto-refresh** options that appear in the **Refreshing every** dropdown (Figure 45).
 
-![Dashboard Settings -- Time picker](../images/customizing-dashboard/dashboard-settings-time-tracker.png)
+![Dashboard Settings -- Time picker](../images/dashboard/customizing-dashboard/dashboard-settings-time-tracker.png)
 
 6. Click **Metadata** to view the dashboard's metadata. This includes information about dashboard creation and updating.
 
-![Dashboard Settings -- Metadata](../images/customizing-dashboard/dashboard-settings-metadata.png)
+![Dashboard Settings -- Metadata](../images/dashboard/customizing-dashboard/dashboard-settings-metadata.png)
 
 *Figure 66: Dashboard Settings -- Metadata*
 

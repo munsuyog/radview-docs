@@ -13,7 +13,7 @@ In WebLOAD Dashboard, you can manage the following types of sessions:
 
 The Load Sessions table appears.
 
-![Load Sessions page](../images/managing-sessions/load-sessions-page.png)
+![Load Sessions page](../images/dashboard/managing-sessions/load-sessions-page.png)
 
 The Load Sessions table provides the following information and available actions for each Load Session:
 
@@ -25,10 +25,10 @@ The Load Sessions table provides the following information and available actions
 | **To**                                 | The date and time when the load session finished running.                                            |
 | **Status**                             | Whether the test passed or failed test execution.                                                    |
 | **Failed Reason**                      | If the test failed, displays the reason for failure.                                                 |
-| ![Delete](../images/managing-tests/managing-tests-delete.png) | Instructs WebLOAD to delete this load session.                                           |
-| ![Download](../images/icons/download.png) | Instructs WebLOAD to download the session results to the local computer. The results are downloaded as a zip file that contains the following files: .ls, .mdb, .sdb, .isd, .dat. You can then open the session in WebLOAD Console or WebLOAD Analytics. |
-| ![Run](../images/managing-tests/managing-tests-run.png)      | Enables manually running a test created in WebLOAD Dashboard, now or at a specified time. Refer to *Scheduling a one-time test run* (on page 25). |
-| ![Stop](../images/managing-tests/managing-tests-stop.png)      | Instructs WebLOAD to stop running the test.                                                          |
+| ![Delete](../images/dashboard/managing-tests/managing-tests-delete.png) | Instructs WebLOAD to delete this load session.                                           |
+| ![Download](../images/dashboard/icons/download.png) | Instructs WebLOAD to download the session results to the local computer. The results are downloaded as a zip file that contains the following files: .ls, .mdb, .sdb, .isd, .dat. You can then open the session in WebLOAD Console or WebLOAD Analytics. |
+| ![Run](../images/dashboard/managing-tests/managing-tests-run.png)      | Enables manually running a test created in WebLOAD Dashboard, now or at a specified time. Refer to *Scheduling a one-time test run* (on page 25). |
+| ![Stop](../images/dashboard/managing-tests/managing-tests-stop.png)      | Instructs WebLOAD to stop running the test.                                                          |
 | **Show in Dashboard**                  | Enables specifying which sessions to display in the dashboard. This is very useful for comparing the statistics from multiple sessions. |
 
 ### Filtering the Load Sessions display
@@ -40,7 +40,7 @@ You can filter the Load Sessions table display by:
 - **Test status**, using the **All Statuses** drop-down box.
 - **Test date**, using the **All Dates** drop-down box.
 
-![Options for filtering the Load Sessions list](../images/managing-sessions/filtering-load-sessions-list.png)
+![Options for filtering the Load Sessions list](../images/dashboard/managing-sessions/filtering-load-sessions-list.png)
 
 ## Uploading a session
 
@@ -60,7 +60,7 @@ You can upload to WebLOAD Dashboard, sessions that were created in the WebLOAD C
 
 The Session Upload page is displayed.
 
-![Session Upload page](../images/managing-sessions/session-upload-page.png)
+![Session Upload page](../images/dashboard/managing-sessions/session-upload-page.png)
 
 2. Click **Select session files**.
 

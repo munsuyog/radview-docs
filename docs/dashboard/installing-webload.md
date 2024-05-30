@@ -19,7 +19,7 @@ to register the installed WebLOAD Dashboard as a Windows service.
 
 * Select Cloud Server to only install the WebLOAD Dashboard.
 
-![WebLOAD Dashboard Installation Options](../images/installing-webload/installing-webload1.png)
+![WebLOAD Dashboard Installation Options](../images/dashboard/installing-webload/installing-webload1.png)
 
 ## Enabling WebLOAD Dashboard 
 As a prerequisite to using WebLOAD Dashboard, you must first, in the WebLOAD 
@@ -28,7 +28,7 @@ as follows.
 
 1. Select **Tools** > **Global Options** > **Database**.
 
-![Console Global Options - Database Tab](../images/installing-webload/installing-webload2.png)
+![Console Global Options - Database Tab](../images/dashboard/installing-webload/installing-webload2.png)
 
 2. Make sure the Insert statistics into Postgres database during the session 
 checkbox is selected. 

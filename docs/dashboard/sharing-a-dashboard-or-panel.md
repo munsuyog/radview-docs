@@ -13,17 +13,17 @@ There are several options for sharing a dashboard:
 
 To access the dashboard sharing options:
 
-1. Select the **Share Dashboard** icon ![Share Dashboard Icon](../images/sharing-a-dashboard-or-panel/share-dashboard-icon.png) in the dashboard header.
+1. Select the **Share Dashboard** icon ![Share Dashboard Icon](../images/dashboard/sharing-a-dashboard-or-panel/share-dashboard-icon.png) in the dashboard header.
 
    A Share window appears, displaying a link to the dashboard.
 
-   ![Figure 76: Share Dashboard -- Options](../images/sharing-a-dashboard-or-panel/share-dashboard-options.png)
+   ![Figure 76: Share Dashboard -- Options](../images/dashboard/sharing-a-dashboard-or-panel/share-dashboard-options.png)
 
 2. Click any of the options: **Link to Dashboard**, or **Export**
 
    A Share Dashboard window appears.
 
-   ![Figure 77: Share Dashboard-- Link tab](../images/sharing-a-dashboard-or-panel/share-dashboard-link-tab.png)
+   ![Figure 77: Share Dashboard-- Link tab](../images/dashboard/sharing-a-dashboard-or-panel/share-dashboard-link-tab.png)
 
 ### Sharing a Link to a Dashboard
 
@@ -55,14 +55,14 @@ To export a dashboard as a JSON file:
 
    An Export dashboard window appears.
 
-   ![Figure 78: Export Dashboard window](../images/sharing-a-dashboard-or-panel/export-dashboard-window.png)
+   ![Figure 78: Export Dashboard window](../images/dashboard/sharing-a-dashboard-or-panel/export-dashboard-window.png)
 
 3. Optionally click **View JSON** to view the file.
 4. Click **Save to file** to save in a desired location.
 
    A JSON file of the dashboard is created in your Downloads directory. Its name is the dashboard name followed by the current timestamp.
 
-   Note that you can view the contents of the JSON file in the dashboard. To do so, click the Manage Dashboard Settings icon ![Manage Dashboard Settings Icon](../images/sharing-a-dashboard-or-panel/manage-dashboard-settings-icon.png) in the middle of the dashboard header, and select **View JSON**.
+   Note that you can view the contents of the JSON file in the dashboard. To do so, click the Manage Dashboard Settings icon ![Manage Dashboard Settings Icon](../images/dashboard/sharing-a-dashboard-or-panel/manage-dashboard-settings-icon.png) in the middle of the dashboard header, and select **View JSON**.
 
 ## Sharing a Panel
 
@@ -82,7 +82,7 @@ To access the panel sharing options:
 
    A Share Panel window appears, with the **Link** tab selected.
 
-   ![Figure 79: Share Panel -- Link tab](../images/sharing-a-dashboard-or-panel/share-panel-link-tab.png)
+   ![Figure 79: Share Panel -- Link tab](../images/dashboard/sharing-a-dashboard-or-panel/share-panel-link-tab.png)
 
 ### Sharing a Link to a Panel
 
@@ -114,7 +114,7 @@ To share a panel by embedding its HTML code:
 2. Access the Share Panel window (Figure 79), as described in *Accessing the Share Panel Options*.
 3. Select the **Embed** tab.
 
-   ![Figure 80: Share Panel -- Embed tab](../images/sharing-a-dashboard-or-panel/share-panel-embed-tab.png)
+   ![Figure 80: Share Panel -- Embed tab](../images/dashboard/sharing-a-dashboard-or-panel/share-panel-embed-tab.png)
 
    Using the options in the Embed window, you can produce the source HTML code of various variants of the panel, as described in the following table.
 

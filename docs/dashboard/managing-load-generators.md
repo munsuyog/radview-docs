@@ -10,13 +10,13 @@ Both a *URL/API Load Test* and *Script Load Test* require you to specify, from a
 
     The Load Generators window appears.
 
-    ![Figure 86: Load Generators page](../images/managing-load-generators/load-generators-page.png)
+    ![Figure 86: Load Generators page](../images/dashboard/managing-load-generators/load-generators-page.png)
 
 2. Click **+Add a new load generator**.
 
     An Add New Load Generator window appears.
 
-    ![Figure 87: Add new load generator](../images/managing-load-generators/add-new-load-generator.png)
+    ![Figure 87: Add new load generator](../images/dashboard/managing-load-generators/add-new-load-generator.png)
 
 3. In the **Name** field, specify the load generator's IP address or host name.
 
@@ -32,7 +32,7 @@ Both a *URL/API Load Test* and *Script Load Test* require you to specify, from a
 
 Load Generators are defined by Name and Location. However, in the test-creation pages, the load generators are listed by Location only (and not by Name).
 
-![Figure: Load Generators' Location Tag](../images/managing-load-generators/load-generators-location-tag.png)
+![Figure: Load Generators' Location Tag](../images/dashboard/managing-load-generators/load-generators-location-tag.png)
 
 This is helpful when defining a load test, because of the relationship between Name and Location, as follows:
 
@@ -74,4 +74,4 @@ If you want to specify a cloud machine as a load generator, you need to first de
 
     For a full description, refer to *Adding Host Computers* in the *WebLOAD Console User Guide*.
 
-    ![Figure 88: Defining cloud host computers in WebLOAD Console](../images/managing-load-generators/defining-cloud-host-computers.png)
+    ![Figure 88: Defining cloud host computers in WebLOAD Console](../images/dashboard/managing-load-generators/defining-cloud-host-computers.png)

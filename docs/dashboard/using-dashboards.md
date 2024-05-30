@@ -13,11 +13,11 @@ The high-level UI components of the **Dashboards** tab include:
 - **Rows**: Each row contains panels for data display.
 - **Panels**: Display data in graph, text, table, singlestat, alert list, dashboard list, or plugin list format.
 
-![Dashboard Components](../images/using-dashboards/dashboard-header-components.png)
+![Dashboard Components](../images/dashboard/using-dashboards/dashboard-header-components.png)
 
 ### Dashboard Header
 
-![Dashboard Tab Header Components](../images/using-dashboards/dashboard-tab-header.png)
+![Dashboard Tab Header Components](../images/dashboard/using-dashboards/dashboard-tab-header.png)
 
 The main components of the dashboard tab header include:
 
@@ -42,7 +42,7 @@ A row is a horizontal container for panels. A row can be hidden (collapsed) and 
 - To add a new row, click **+ ADD ROW** at the bottom of a dashboard page.
 - To edit a row, click the three grey dots and select the desired option. For more information, refer to *Customizing Rows* (on page 46).
 
-![Row Editing Options](../images/using-dashboards/row-editing-options.png)
+![Row Editing Options](../images/dashboard/using-dashboards/row-editing-options.png)
 
 ### Panels
 
@@ -55,25 +55,25 @@ A panel is a data display unit. There are various types of panels -- such as gra
 
 A graph panel presents session measurement data in graphic format. In each graph panel, you can display multiple measurements from multiple sessions. You can also set various display options, such as colors, graph style (lines, bars, points), Y-axis formats (bytes, milliseconds, etc.), and more.
 
-![Graph Panel](../images/using-dashboards/graph-panel.png)
+![Graph Panel](../images/dashboard/using-dashboards/graph-panel.png)
 
 #### Table Panel
 
 A table panel presents data in table format; by default, the log messages from specified sessions. You can sort the display by various parameters and filter the display by severity.
 
-![Table Panel](../images/using-dashboards/table-panel.png)
+![Table Panel](../images/dashboard/using-dashboards/table-panel.png)
 
 #### Text Panel
 
 A text panel presents text. You can edit the text.
 
-![Text Panel](../images/using-dashboards/text-panel.png)
+![Text Panel](../images/dashboard/using-dashboards/text-panel.png)
 
 #### Singlestat Panel
 
 A singlestat panel is similar to a graph panel but shows only a single statistic, usually in numeric form. It may contain a 'sparkline' and may appear as a gauge. Note that because a singlestat panel displays only one measurement, it is not suitable when comparing two or more sessions.
 
-![Singlestat Panel](../images/using-dashboards/singlestat-panel.png)
+![Singlestat Panel](../images/dashboard/using-dashboards/singlestat-panel.png)
 
 #### Alert List Panel
 
@@ -99,7 +99,7 @@ Do any of the following:
 - In Load Tests table, click the Show Last Session button.
 - To select multiple sessions for viewing in the dashboard tab, click **Show in Dashboard** for each session you wish to view in the Dashboard.
 
-![Selecting Sessions - from the Header](../images/using-dashboards/selecting-sessions-from-the-header.png)
+![Selecting Sessions - from the Header](../images/dashboard/using-dashboards/selecting-sessions-from-the-header.png)
 
 ## Specifying the Zoom
 
@@ -109,11 +109,11 @@ Using a graph panel's zoom option, you can set the time period for which all pan
 
 Use the mouse to select a specific time range in the panel.
 
-![Selecting a Time Range](../images/using-dashboards/selecting-a-time-range.png)
+![Selecting a Time Range](../images/dashboard/using-dashboards/selecting-a-time-range.png)
 
 The dashboard refreshes to show the graph for the selected time range only.
 
-![Display of a Selected Time Range](../images/using-dashboards/display-of-selected-time-range.png)
+![Display of a Selected Time Range](../images/dashboard/using-dashboards/display-of-selected-time-range.png)
 
 **To zoom out:**
 
@@ -125,21 +125,21 @@ You can view dashboard data in either Relative time or Absolute time (see item â
 
 **If you are viewing data for a single session:**
 
-- ![Relative time](../images/using-dashboards/relative-time.png) **Relative time** -- The start time is shifted over to zero.
-- ![Absolute time](../images/using-dashboards/absolute-time.png) **Absolute time** -- Shows the real time. This format is useful for viewing currently running sessions.
+- ![Relative time](../images/dashboard/using-dashboards/relative-time.png) **Relative time** -- The start time is shifted over to zero.
+- ![Absolute time](../images/dashboard/using-dashboards/absolute-time.png) **Absolute time** -- Shows the real time. This format is useful for viewing currently running sessions.
 
 **If you are comparing sessions:**
 
 - **Relative time** -- The graph shows the two sessions as if they occurred concurrently (within the same timeframe).
-  ![Comparing Sessions in Relative Time Display](../images/using-dashboards/graph-panel.png)
+  ![Comparing Sessions in Relative Time Display](../images/dashboard/using-dashboards/graph-panel.png)
 - **Absolute time** -- The graphs show the real time.
-  ![Comparing Sessions in Absolute Time Display](../images/using-dashboards/comparing-sessions-absolute-time-display.png)
+  ![Comparing Sessions in Absolute Time Display](../images/dashboard/using-dashboards/comparing-sessions-absolute-time-display.png)
 
 ### Setting the Time Picker
 
 If you selected the Time Picker (see item â‘© in Figure 33), you can set various time settings.
-![Time Filter Options](../images/using-dashboards/time-filter-options.png)
+![Time Filter Options](../images/dashboard/using-dashboards/time-filter-options.png)
 
 You can, for example, set the auto-refresh frequency.
-![Auto-Refresh Options](../images/using-dashboards/auto-refresh-options.png)
+![Auto-Refresh Options](../images/dashboard/using-dashboards/auto-refresh-options.png)
 
