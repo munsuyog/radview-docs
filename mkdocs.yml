@@ -16,4 +16,15 @@ nav:
     - Managing Load Generators: dashboard/managing-load-generators.md
     - Managing Organizations, Users and Admins: dashboard/managing-organizations-users-and-admins.md
     - Appendix: dashboard/appendix.md
+  - Adobe Flex Add-on User Guide:
+    - Overview of Adobe Flex: adobe-flex/overview.md
+    - Installing the Adobe Flex Add-on: adobe-flex/installing-the-adobe-flex.md
+    - Creating scripts with AMF Messages: adobe-flex/creating-scripts-with-amf-messages.md
+    - Editing the Script: adobe-flex/editing-the-script.md
+    - Sample Flex Script: adobe-flex/sample-flex-script.md
+    - Monitoring LiveCycle Data Services ES Statistics: adobe-flex/monitoring-livecycle.md
+    - Appendix A: adobe-flex/appendix-a.md
+    - Appendix B: adobe-flex/appendix-b.md
+    - Index: adobe-flex/index.md
+
 theme: readthedocs
