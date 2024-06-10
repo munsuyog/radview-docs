@@ -26,5 +26,13 @@ nav:
     - Appendix A: adobe-flex/appendix-a.md
     - Appendix B: adobe-flex/appendix-b.md
     - Index: adobe-flex/index.md
+  - Webload Installation Guide:
+    - Introduction: webload-installation-guide/introduction.md
+    - System Requirements: webload-installation-guide/system-requirements.md
+    - Installing WebLOAD for Windows: webload-installation-guide/installing-webload-for-windows.md
+    - Installing WebLOAD for Linux: webload-installation-guide/installing-webload-for-linux.md
+    - Registering and Updating WebLOAD License: webload-installation-guide/registering-and-updating-webload-license.md
+    - Configuring Connection to the Oracle Database using WebLOAD: webload-installation-guide/configuring-connection.md
+    - Unistalling WebLOAD: webload-installation-guide/uninstalling-webload.md
 
 theme: readthedocs
