@@ -18,7 +18,7 @@ Use the Content Types tab in the Record Options dialog box to set up which types
 
     The Content Types tab moves to the front of the dialog box.
 
-    ![Content Types Tab](../images/adobe-flex/creating-scripts-with-amf-messages/content-types-tab.png)
+    ![Content Types Tab](/images/adobe-flex/creating-scripts-with-amf-messages/content-types-tab.png)
 
     *Figure 1: Content Types Tab*
 
@@ -34,13 +34,13 @@ Recording scripts containing AMF applications is done in the same way as you wou
 
 You can view the recorded AMF content in the WebLOAD Recorder, while you are recording in the JavaScript View pane, or when you have finished recording in JavaScript Editing mode. For example:
 
-![Script Containing AMF Messages -- JavaScript View](../images/adobe-flex/creating-scripts-with-amf-messages/script-containing-amf-messages-javascript.png)
+![Script Containing AMF Messages -- JavaScript View](/images/adobe-flex/creating-scripts-with-amf-messages/script-containing-amf-messages-javascript.png)
 
 *Figure 2: Script Containing AMF Messages -- JavaScript View*
 
 While recording, you can also view the AMF content as a JavaScript object in the HTML View. For example:
 
-![Script Containing AMF Messages -- HTML View](../images/adobe-flex/creating-scripts-with-amf-messages/script-containing-amf-messages-html.png)
+![Script Containing AMF Messages -- HTML View](/images/adobe-flex/creating-scripts-with-amf-messages/script-containing-amf-messages-html.png)
 
 *Figure 3: Script Containing AMF Messages -- HTML View*
 
@@ -73,7 +73,7 @@ After you have recorded a script containing AMF messages, you can play it in the
 
 During playback, the server response is represented as a JSON string in the Browser View and as a JavaScript object in the HTML View. For more information about these views, refer to *Viewing and Analyzing the Test Results*, in the *WebLOAD Recorder User Guide*. Viewing the HTML View and the Browser View simultaneously enables you to perform a simple verification of the results, as shown in Figure 4. For more information about verification options, refer to *Verification* (on page 9).
 
-![AMF Script Displayed in HTML View and Browser View](../images/adobe-flex/creating-scripts-with-amf-messages/amf-script-displayed-in-html-view.png)
+![AMF Script Displayed in HTML View and Browser View](/images/adobe-flex/creating-scripts-with-amf-messages/amf-script-displayed-in-html-view.png)
 
 *Figure 4: AMF Script Displayed in HTML View and Browser View*
 
@@ -93,7 +93,7 @@ The WebLOAD Recorder Verifications toolbox group includes the Flex - AMF Buildin
 
   The Flex - AMF Building Block is described here:
 
-  ![Flex - AMF Building Block](../images/adobe-flex/creating-scripts-with-amf-messages/flex-amf-building-block.png)
+  ![Flex - AMF Building Block](/images/adobe-flex/creating-scripts-with-amf-messages/flex-amf-building-block.png)
 
   *Figure 5: Flex - AMF Building Block*
 
@@ -115,7 +115,7 @@ The Flex - AMF Building Block enables you to automatically generate a verificati
 
     The Flex - AMF dialog box opens.
 
-    ![Flex - AMF Dialog Box](../images/adobe-flex/creating-scripts-with-amf-messages/flex-amf-dialog-box.png)
+    ![Flex - AMF Dialog Box](/images/adobe-flex/creating-scripts-with-amf-messages/flex-amf-dialog-box.png)
 
     *Figure 6: Flex - AMF Dialog Box*
 

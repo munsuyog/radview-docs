@@ -53,7 +53,7 @@ You can change the port that the back-end server listens on, which is 8080 by de
     - Click the **WebLOAD** data source,
     - In the Edit Data Source window that appears, change the **URL** to reflect the new address.
 
-    ![Edit Data Source window](../images/dashboard/appendix/edit-data-source-window.png)
+    ![Edit Data Source window](/images/dashboard/appendix/edit-data-source-window.png)
 
 **Changing the WebLOAD Dashboard Database**
 
@@ -65,7 +65,7 @@ In addition, if you wish to import remote database sessions from the WebLOAD Con
 
 1. Select **Tools** > **Global Options** > **Database**.
 
-    ![Console Global Options - Database Tab](../images/dashboard/appendix/console-global-options-database-tab.png)
+    ![Console Global Options - Database Tab](/images/dashboard/appendix/console-global-options-database-tab.png)
 
 2. In the **Database configuration** section, enter the details of the remote database.
 

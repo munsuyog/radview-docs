@@ -16,10 +16,10 @@ Create a Flex script by performing the following steps in the WebLOAD Recorder.
 
 ### Step 1 -- Record a Flex Application
 
-1. In the WebLOAD Recorder, click ![Record Icon](../images/adobe-flex/sample-flex-script/record-icon.png) to start recording.
+1. In the WebLOAD Recorder, click ![Record Icon](/images/adobe-flex/sample-flex-script/record-icon.png) to start recording.
 2. In the browser that opens, enter the following URL: `http://www.webloadmpstore.com/flex/bin/ProductList.swf`.
 3. In the search field, type `webload` and click **Search**.
-4. In the WebLOAD Recorder, click ![Stop Record](../images/adobe-flex/sample-flex-script/stop-record.png) to stop recording
+4. In the WebLOAD Recorder, click ![Stop Record](/images/adobe-flex/sample-flex-script/stop-record.png) to stop recording
 
 The script at this point is as follows:
 

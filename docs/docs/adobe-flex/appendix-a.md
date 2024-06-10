@@ -6,7 +6,7 @@ WebLOAD supports recording AMF transactions with binary encoded data and simulta
 
 After installing the Adobe Flex Add-on, all AMF content is displayed in an easy-to-read JavaScript representation in the JavaScript Editor. Alternatively, the binary format of the AMF traffic can be displayed. In this case, the AMF content is extracted from the HTTP traffic and the native binary data is encoded in your script.
 
-![AMF Transactions with Binary Encoded Data](../images/adobe-flex/appendix-a/amf-transactions.png)
+![AMF Transactions with Binary Encoded Data](/images/adobe-flex/appendix-a/amf-transactions.png)
 
 *Figure 12: AMF Transactions with Binary Encoded Data*
 

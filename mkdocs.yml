@@ -2,37 +2,37 @@ site_name: Radview Docs
 nav: 
   - Home: index.md
   - Dashboard Guide: 
-    - Introduction: dashboard/introduction.md
-    - Installing WebLOAD Dashboard: dashboard/installing-webload.md
-    - Getting Started: dashboard/getting-started.md
-    - Managing Tests: dashboard/managing-tests.md
-    - Managing Sessions: dashboard/managing-sessions.md
-    - Managing Resourses: dashboard/managing-resources.md
-    - Using Dashboards: dashboard/using-dashboards.md
-    - Customizing a Dashboard: dashboard/customizing-dashboard.md
-    - Managing Dashboards: dashboard/managing-dashboards.md
-    - Sharing a Dashboard or Panel: dashboard/sharing-a-dashboard-or-panel.md
-    - Creating and Playing a Playlist: dashboard/creating-and-playing-a-playlist.md
-    - Managing Load Generators: dashboard/managing-load-generators.md
-    - Managing Organizations, Users and Admins: dashboard/managing-organizations-users-and-admins.md
-    - Appendix: dashboard/appendix.md
+    - Introduction: docs/dashboard/introduction.md
+    - Installing WebLOAD Dashboard: docs/dashboard/installing-webload.md
+    - Getting Started: docs/dashboard/getting-started.md
+    - Managing Tests: docs/dashboard/managing-tests.md
+    - Managing Sessions: docs/dashboard/managing-sessions.md
+    - Managing Resourses: docs/dashboard/managing-resources.md
+    - Using Dashboards: docs/dashboard/using-dashboards.md
+    - Customizing a Dashboard: docs/dashboard/customizing-dashboard.md
+    - Managing Dashboards: docs/dashboard/managing-dashboards.md
+    - Sharing a Dashboard or Panel: docs/dashboard/sharing-a-dashboard-or-panel.md
+    - Creating and Playing a Playlist: docs/dashboard/creating-and-playing-a-playlist.md
+    - Managing Load Generators: docs/dashboard/managing-load-generators.md
+    - Managing Organizations, Users and Admins: docs/dashboard/managing-organizations-users-and-admins.md
+    - Appendix: docs/dashboard/appendix.md
   - Adobe Flex Add-on User Guide:
-    - Overview of Adobe Flex: adobe-flex/overview.md
-    - Installing the Adobe Flex Add-on: adobe-flex/installing-the-adobe-flex.md
-    - Creating scripts with AMF Messages: adobe-flex/creating-scripts-with-amf-messages.md
-    - Editing the Script: adobe-flex/editing-the-script.md
-    - Sample Flex Script: adobe-flex/sample-flex-script.md
-    - Monitoring LiveCycle Data Services ES Statistics: adobe-flex/monitoring-livecycle.md
-    - Appendix A: adobe-flex/appendix-a.md
-    - Appendix B: adobe-flex/appendix-b.md
-    - Index: adobe-flex/index.md
+    - Overview of Adobe Flex: docs/adobe-flex/overview.md
+    - Installing the Adobe Flex Add-on: docs/adobe-flex/installing-the-adobe-flex.md
+    - Creating scripts with AMF Messages: docs/adobe-flex/creating-scripts-with-amf-messages.md
+    - Editing the Script: docs/adobe-flex/editing-the-script.md
+    - Sample Flex Script: docs/adobe-flex/sample-flex-script.md
+    - Monitoring LiveCycle Data Services ES Statistics: docs/adobe-flex/monitoring-livecycle.md
+    - Appendix A: docs/adobe-flex/appendix-a.md
+    - Appendix B: docs/adobe-flex/appendix-b.md
+    - Index: docs/adobe-flex/index.md
   - Webload Installation Guide:
-    - Introduction: webload-installation-guide/introduction.md
-    - System Requirements: webload-installation-guide/system-requirements.md
-    - Installing WebLOAD for Windows: webload-installation-guide/installing-webload-for-windows.md
-    - Installing WebLOAD for Linux: webload-installation-guide/installing-webload-for-linux.md
-    - Registering and Updating WebLOAD License: webload-installation-guide/registering-and-updating-webload-license.md
-    - Configuring Connection to the Oracle Database using WebLOAD: webload-installation-guide/configuring-connection.md
-    - Unistalling WebLOAD: webload-installation-guide/uninstalling-webload.md
+    - Introduction: docs/webload-installation-guide/introduction.md
+    - System Requirements: docs/webload-installation-guide/system-requirements.md
+    - Installing WebLOAD for Windows: docs/webload-installation-guide/installing-webload-for-windows.md
+    - Installing WebLOAD for Linux: docs/webload-installation-guide/installing-webload-for-linux.md
+    - Registering and Updating WebLOAD License: docs/webload-installation-guide/registering-and-updating-webload-license.md
+    - Configuring Connection to the Oracle Database using WebLOAD: docs/webload-installation-guide/configuring-connection.md
+    - Unistalling WebLOAD: docs/webload-installation-guide/uninstalling-webload.md
 
 theme: readthedocs

@@ -8,7 +8,7 @@ You can view all the load tests you created in WebLOAD Dashboard.
 
 The Load Tests page appears, listing the load tests in a table format.
 
-![](../images/dashboard/managing-tests/managing-tests1.png)
+![](/images/dashboard/managing-tests/managing-tests1.png)
 
 The Load Tests table provides the following information and actions, for each Load 
 Test:
@@ -21,11 +21,11 @@ Test:
 | Next Execution| The date and time when the test is next scheduled to run. Refer to *Setting recurring test runs* (on page 24) and *Scheduling a one-time test run* (on page 25). |
 | Last Execution| The date and time when the test last started running. |
 | Last Session State| Whether the test passed or failed the last test execution. |
-| ![View Last Session](../images/dashboard/managing-tests/managing-tests-view-last.png) | Enables viewing the last session of this test. Selecting this option opens a Dashboard page displaying the last session of the test. Refer to *Using Dashboards* (on page 36). |
-| ![Run Now](../images/dashboard/managing-tests/managing-tests-run.png) | Enables manually running this test now or at a specified time. Refer to *Scheduling a one-time test run* (on page 25). |
-| ![Stop Test](../images/dashboard/managing-tests/managing-tests-stop.png) | Instructs WebLOAD to stop the running test. |
-| ![View All Sessions](../images/dashboard/managing-tests/managing-tests-view-all.png) | Enables viewing all this test's sessions. Selecting this option opens a Load Sessions page (Figure 23) that displays all of this test's sessions. |
-| ![Delete Test](../images/dashboard/managing-tests/managing-tests-delete.png) | Instructs WebLOAD to delete the load test. Refer to *Deleting a load test* (on page 27). |
+| ![View Last Session](/images/dashboard/managing-tests/managing-tests-view-last.png) | Enables viewing the last session of this test. Selecting this option opens a Dashboard page displaying the last session of the test. Refer to *Using Dashboards* (on page 36). |
+| ![Run Now](/images/dashboard/managing-tests/managing-tests-run.png) | Enables manually running this test now or at a specified time. Refer to *Scheduling a one-time test run* (on page 25). |
+| ![Stop Test](/images/dashboard/managing-tests/managing-tests-stop.png) | Instructs WebLOAD to stop the running test. |
+| ![View All Sessions](/images/dashboard/managing-tests/managing-tests-view-all.png) | Enables viewing all this test's sessions. Selecting this option opens a Load Sessions page (Figure 23) that displays all of this test's sessions. |
+| ![Delete Test](/images/dashboard/managing-tests/managing-tests-delete.png) | Instructs WebLOAD to delete the load test. Refer to *Deleting a load test* (on page 27). |
 
 
 ## Creating a new load test 
@@ -40,7 +40,7 @@ To create a new load test:
     - Select Tests > Search, and click + Add a new load test. The Create a new Load Test page appears. 
     - In the homepage, see the Create a new Load Test pane.
 
-    ![Selecting the type of load test to create](../images/dashboard/managing-tests/managing-tests-type-of-load.png)
+    ![Selecting the type of load test to create](/images/dashboard/managing-tests/managing-tests-type-of-load.png)
 
 2. Select the type of test to create. Refer to the following for detailed explanations: 
     - Creating a URL/API Load Test (on page 14) 
@@ -60,13 +60,13 @@ To create a URL/API load test:
     - Select Tests > Search, and click + Add a new load test. The Create a new Load Test page appears. 
     - In the homepage, see the Create a new Load Test pane.
 
-    ![Selecting the type of load test to create](../images/dashboard/managing-tests/managing-tests-type-of-load.png)
+    ![Selecting the type of load test to create](/images/dashboard/managing-tests/managing-tests-type-of-load.png)
 
 2. Select URL/API Test.
 
     A Create Load Test page appears.
 
-    ![Creating a URL/API load test](../images/dashboard/managing-tests/managing-tests-create-api.png)
+    ![Creating a URL/API load test](/images/dashboard/managing-tests/managing-tests-create-api.png)
 
 3. Specify the test settings. 
 
@@ -124,13 +124,13 @@ Use this option to create a load test based on a WebLOAD script that was created
 
     - In the homepage, see the Create a new Load Test pane.
 
-    ![Selecting the type of load test to create](../images/dashboard/managing-tests/managing-tests-type-of-load.png)
+    ![Selecting the type of load test to create](/images/dashboard/managing-tests/managing-tests-type-of-load.png)
 
 2. Select **Script Test**.
 
     A Create Load Test page appears
 
-    ![Creating a Script load test](../images/dashboard/managing-tests/create-script-load-test.png)
+    ![Creating a Script load test](/images/dashboard/managing-tests/create-script-load-test.png)
 
 3. Specify the test settings. 
 
@@ -176,11 +176,11 @@ This option is intended for SaaS users wishing to run a limited test prior to ru
 To specify the script participating in a Script Load Test: 
 
 1. For every script you want to include in the Script Load test, click **Add Script**.
-    ![Selecting to add a script to a Script Load Test](../images/dashboard/managing-tests/add-a-script.png)
+    ![Selecting to add a script to a Script Load Test](/images/dashboard/managing-tests/add-a-script.png)
 
     The **Scripts** page appears. 
 
-    ![Selecting a script in the Scripts page](../images/dashboard/managing-tests/select-script.png)
+    ![Selecting a script in the Scripts page](/images/dashboard/managing-tests/select-script.png)
 
     The Scripts page lists the scripts uploaded to the WebLOAD Dashboard. For 
     details how to upload a script, refer to Uploading Resources (on page 33). If a script 
@@ -192,7 +192,7 @@ To specify the script participating in a Script Load Test:
     You are returned to the Script Load Test page, with the selected script appearing 
     in its Scripts list. 
 
-    ![List of scripts participating in a Script Load Test](../images/dashboard/managing-tests/list-of-scripts.png)
+    ![List of scripts participating in a Script Load Test](/images/dashboard/managing-tests/list-of-scripts.png)
 
 3. In the % column, specify the relative weight of each script. Make sure that the percentages all add up to 100%. If you wish to give the scripts identical weights, click **Make Equal**.
 
@@ -209,13 +209,13 @@ To create a template load test:
     - Select **Tests > Search**, and click **+ Add a new load test**. The Create a new Load Test page appears. 
     - In the homepage, see the Create a new Load Test pane.
 
-    ![Selecting the type of load test to create](../images/dashboard/managing-tests/managing-tests-type-of-load.png)
+    ![Selecting the type of load test to create](/images/dashboard/managing-tests/managing-tests-type-of-load.png)
 
 2. Select **Template Test**. 
 
     A Create Load Test page appears.
 
-    ![Creating a Template load test](../images/dashboard/managing-tests/template-load-test.png)
+    ![Creating a Template load test](/images/dashboard/managing-tests/template-load-test.png)
 
 3. Specify the test settings. 
 
@@ -248,13 +248,13 @@ Note that the list of available load generators is defined by a Super Admin, as 
 
 2. Select a group of load generators with an identical Location by entering a non-zero percentage in the corresponding **%** column. The percentage specifies the relative weight of this group of load generators.
 
-    ![List of available load generators](../images/dashboard/managing-tests/available-load-generators.png)
+    ![List of available load generators](/images/dashboard/managing-tests/available-load-generators.png)
 
     *Figure 17: List of available load generators — as appearing in a load test page*
 
 3. Make sure the sum of all the percentages is 100%.
 
-    ![Specifying the load generators participating in a load test ](../images/dashboard/managing-tests/specifying-load-generators.png)
+    ![Specifying the load generators participating in a load test ](/images/dashboard/managing-tests/specifying-load-generators.png)
 
 
 ## Setting Recurring Test Runs
@@ -267,7 +267,7 @@ Note that you can also manually run or schedule a one-time test run at any time.
 
 1. In the Create Load Test page, accessed as described in *Creating a New Load Test* (on page 13), select the **Recurrence** checkbox.
 
-    ![Setting test recurrence](../images/dashboard/managing-tests/setting-test-recurrence.png)
+    ![Setting test recurrence](/images/dashboard/managing-tests/setting-test-recurrence.png)
 
 2. Set the frequency: **EveryDay** or **EveryWeek**.
 
@@ -290,17 +290,17 @@ Note that you can also schedule automatic periodic execution of a test as part o
 
    The Load Tests table appears (Figure 6).
 
-   ![Load Tests page](../images/dashboard/managing-tests/load-tests.png)
+   ![Load Tests page](/images/dashboard/managing-tests/load-tests.png)
 
-2. In the line corresponding to the test you wish to run, click ![Run Test](../images/dashboard/managing-tests/managing-tests-run.png). A Run Test query is displayed.
+2. In the line corresponding to the test you wish to run, click ![Run Test](/images/dashboard/managing-tests/managing-tests-run.png). A Run Test query is displayed.
 
-   ![Run Test query](../images/dashboard/managing-tests/run-test-query.png)
+   ![Run Test query](/images/dashboard/managing-tests/run-test-query.png)
 
 3. Do one of the following:
    - To run the test now, click **Run Now**.
    - To run the test at a specific later time, click **Run Later**, and specify the date and time for running the test.
 
-   ![Specifying to run a load test at a later time ](../images/dashboard/managing-tests/specifying-run-test.png)
+   ![Specifying to run a load test at a later time ](/images/dashboard/managing-tests/specifying-run-test.png)
 
 4. Click **Run**. 
 
@@ -312,7 +312,7 @@ Note that you can also schedule automatic periodic execution of a test as part o
 
    The Load Tests table appears (Figure 6).
 
-   ![Load Tests page](../images/dashboard/managing-tests/update-load-test.png)
+   ![Load Tests page](/images/dashboard/managing-tests/update-load-test.png)
 
    *Figure: Example of the Load Tests page*
 
@@ -330,11 +330,11 @@ Note that you can also schedule automatic periodic execution of a test as part o
 
 1. In the menu bar, select **Tests** > **Search**.
 
-2. In the line corresponding to the test you wish to delete, click ![](../images/dashboard/managing-tests/managing-tests-delete.png).
+2. In the line corresponding to the test you wish to delete, click ![](/images/dashboard/managing-tests/managing-tests-delete.png).
 
     A Delete Test page appears.
 
-    ![Deleting a load session](../images/dashboard/managing-tests/delete-test-page.png)
+    ![Deleting a load session](/images/dashboard/managing-tests/delete-test-page.png)
 
 3. In the Delete Test page that appears, you can select between: 
     - Deleting the load test and all its session. 

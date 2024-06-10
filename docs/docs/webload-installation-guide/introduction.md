@@ -66,8 +66,8 @@ The following icons appear next to the text to identify special information.
 
 | Icon | Type of Information |
 |------|---------------------|
-| ![](../images/webload-installation-guide/note.png) | Indicates a note. |
-| ![](../images/webload-installation-guide/webload-add-on.png) | Indicates a feature that is available only as part of a WebLOAD Add-on. |
+| ![](/images/webload-installation-guide/note.png) | Indicates a note. |
+| ![](/images/webload-installation-guide/webload-add-on.png) | Indicates a feature that is available only as part of a WebLOAD Add-on. |
 
 The following kinds of formatting in the text identify special information.
 

@@ -78,7 +78,7 @@ When the WebLOAD installation is complete, the WebLOAD License dialog box automa
 8. Double-click the WebRM executable installation file to restart the installation process.
 9. On the Select License dialog box, browse to the location where you saved your WebRM license, select the file and click **Next**.
 
-![WebRM Installation Wizard -- Select Start Menu Folder](../images/webload-installation-guide/webrm-installation-wizard.png)
+![WebRM Installation Wizard -- Select Start Menu Folder](/images/webload-installation-guide/webrm-installation-wizard.png)
 
 10. WebRM begins the installation. When the WebRM installation process is complete, a dialog box appears stating that the WebRM installation has completed successfully. Click **Finish**.
 

@@ -35,7 +35,7 @@ These sections are used to register and update your WebLOAD authorization licens
 
    The Update License dialog box appears.
 
-   ![Update License Dialog Box](../images/webload-installation-guide/update-license-dialog-box.png)
+   ![Update License Dialog Box](/images/webload-installation-guide/update-license-dialog-box.png)
 
 2. Create an email message with the following information:
 
@@ -85,7 +85,7 @@ You can install a trial version of WebLOAD, which provides 50 virtual clients an
 
    The Update License dialog box appears.
 
-   ![Update License Dialog Box](../images/webload-installation-guide/update-license-dialog-box-trial.png)
+   ![Update License Dialog Box](/images/webload-installation-guide/update-license-dialog-box-trial.png)
 
 2. Select **30-day trial**.
 
@@ -124,7 +124,7 @@ This section describes how to connect to the WebRM Server and how to view the li
 
    The Update License dialog box appears.
 
-   ![Update License Dialog Box -- WebRM Server Installation](../images/webload-installation-guide/update-license-dialog-box-webrm-server.png)
+   ![Update License Dialog Box -- WebRM Server Installation](/images/webload-installation-guide/update-license-dialog-box-webrm-server.png)
 
 2. Select **Connect to the WebRM License Server**.
 

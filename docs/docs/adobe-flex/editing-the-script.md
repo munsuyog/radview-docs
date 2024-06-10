@@ -10,7 +10,7 @@ For example, line number 20 of the script displayed in Figure 7 contains the wor
 
 You can also copy and paste the pieces of code containing AMF messages into other parts of your script.
 
-![Parameterizing the Script](../images/adobe-flex/editing-the-script/parameterizing-the-script.png)
+![Parameterizing the Script](/images/adobe-flex/editing-the-script/parameterizing-the-script.png)
 
 ## Correlating the Script
 
@@ -20,7 +20,7 @@ If the *use sticky session* option is enabled on the application server, your re
 
 The first server response that contains the DSId value can be seen in the following script:
 
-![DSId Value in Script](../images/adobe-flex/editing-the-script/ddsid-value-in-script.png)
+![DSId Value in Script](/images/adobe-flex/editing-the-script/ddsid-value-in-script.png)
 
 The following examples represent the corresponding scripts that contain two AMF transactions with the DSId message. The *before* script is the native script as it was recorded and includes two AMF transactions.
 
@@ -167,7 +167,7 @@ A mixed script contains AMF messages together with additional JavaScript command
 For example, you can add calls to HTTP pages with the POST command to repeatedly 
 send an AMF message.
 
-![Mixed Script](../images/adobe-flex/editing-the-script/mixed-script.png)
+![Mixed Script](/images/adobe-flex/editing-the-script/mixed-script.png)
 
 ## AMF Object Syntax in JSON and JavaScript
 
